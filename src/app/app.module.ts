@@ -4,10 +4,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EditorModule } from '@tinymce/tinymce-angular';
+import { ChartComponent } from './components/chart/chart.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ChartComponent
   ],
   imports: [
     BrowserModule,
